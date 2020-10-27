@@ -27,7 +27,7 @@ $ echo 'src/gz openlumi-node https://openlumi.github.io/openwrt-packages/package
 
 ## Supporting platforms and packages
 
-* OpenWrt 5.4.70
+* OpenWrt 5.4
   * [arm_cortex-a9_neon](https://github.com/openlumi/openwrt-packages/tree/gh-pages/packages/arm_cortex-a9_neon)
   
 ## Packages
