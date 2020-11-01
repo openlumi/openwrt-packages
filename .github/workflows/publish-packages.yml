@@ -1,0 +1,56 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ latest/* ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: fetch merge
+        run: |
+          git fetch --all
+          git checkout -b master origin/master
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          for branch in $(git branch -a | grep 'remotes/origin/latest/*' | perl -pe 's|\s*remotes/||'); do
+              echo "Merging '$branch' to master..."
+              git merge --no-edit --allow-unrelated-histories $branch
+          done
+
+      - name: package generate
+        run: |
+          git log --graph --abbrev-commit --date=relative
+          _scripts/chgrp-for-docker.sh -g 1000 -R .
+          _scripts/extract-encrypted-tar.sh \
+          -K ${{ secrets.ENCRYPTED_KEY }} -iv ${{ secrets.ENCRYPTED_IV }} \
+          _secrets.tar.enc secret.key
+          _scripts/make-index-and-sign.sh -s secret.key ./
+          _scripts/make-index-md.sh ./packages/ > ./index.md
+          rm secret.key
+
+      - name: Commit files
+        run: |
+          git status
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add index and signature files" -a
+
+      - name: Push to gh-pages
+        run: |
+          git branch
+          git config --global url."git@github.com:".pushInsteadOf https://github.com/
+          _scripts/extract-encrypted-tar.sh \
+          -K ${{ secrets.ENCRYPTED_KEY }} -iv ${{ secrets.ENCRYPTED_IV }} \
+          _secrets.tar.enc .ssh
+          mv .ssh $HOME/.ssh
+          git push --verbose -f origin master:gh-pages
+          rm -rf $HOME/.ssh
