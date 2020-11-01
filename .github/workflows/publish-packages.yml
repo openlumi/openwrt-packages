@@ -33,7 +33,7 @@ jobs:
           -K ${{ secrets.ENCRYPTED_KEY }} -iv ${{ secrets.ENCRYPTED_IV }} \
           _secrets.tar.enc secret.key
           _scripts/make-index-and-sign.sh -s secret.key ./
-          _scripts/make-index-md.sh ./packages/ > ./index.md
+          _scripts/make-index-md.sh ./packages/ > ./packages/index.md
           rm secret.key
 
       - name: Commit files

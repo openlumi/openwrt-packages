@@ -19,7 +19,6 @@ for pkg in `find $pkg_dir -name '*.ipk' | sort`; do
   file_size=$(stat -L -c%s $pkg)
 
   echo "| [${name}](${pkg}) | ${file_size} |"
-  echo ""
 done
 [ -n "$empty" ] && echo
 exit 0
