@@ -29,6 +29,7 @@ fi
 TARGET_DIR=${1:-.}
 
 make_index_and_sign() {
+  local CURRENT_DIR=`pwd`
   echo $1
   cd $1
   ipkg-make-index.sh . > ./Packages
@@ -37,6 +38,7 @@ make_index_and_sign() {
       usign -S -m ./Packages -s $USIGN_SECRET_PATH -x ./Packages.sig
       usign -S -m ./Packages.gz -s $USIGN_SECRET_PATH -x ./Packages.gz.sig
   fi
+  cd $CURRENT_DIR
 }
 
 make_index_and_sign ./packages
