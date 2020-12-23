@@ -4,7 +4,7 @@ name: CI
 
 on:
   push:
-    branches: [ latest/* ]
+    branches: [ master ]
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -15,16 +15,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: fetch merge
+      - name: config checkout
         run: |
-          git fetch --all
-          git checkout -b master origin/master
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          for branch in $(git branch -a | grep 'remotes/origin/latest/*' | perl -pe 's|\s*remotes/||'); do
-              echo "Merging '$branch' to master..."
-              git merge --no-edit --allow-unrelated-histories $branch
-          done
 
       - name: package generate
         run: |
@@ -33,8 +27,8 @@ jobs:
           _scripts/extract-encrypted-tar.sh \
           -K ${{ secrets.ENCRYPTED_KEY }} -iv ${{ secrets.ENCRYPTED_IV }} \
           _secrets.tar.enc secret.key
-          _scripts/make-index-and-sign.sh -s secret.key ./
-          _scripts/make-index-md.sh ./packages/ > ./packages/index.md
+          _scripts/make-index-and-sign.sh -s secret.key ./packages/
+          _scripts/make-index-html.sh ./packages/
           rm secret.key
 
       - name: Commit files

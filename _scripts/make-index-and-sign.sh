@@ -41,8 +41,6 @@ make_index_and_sign() {
   cd $CURRENT_DIR
 }
 
-make_index_and_sign ./packages
-
 for dir in $(find $TARGET_DIR -name '*.ipk' -exec dirname {} \; | sort | uniq); do
   make_index_and_sign $dir
 done
