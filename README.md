@@ -6,17 +6,18 @@ GitHub Pages repository for own OpenWrt binary packages feed.
 
 ## Usage
 
-```
-$ [ -f /lib/libustream-ssl.so ] && echo "libustream already installed" || opkg install libustream-mbedtls
-$ wget https://openlumi.github.io/openwrt-packages/public.key
-$ opkg-key add public.key
-$ echo 'src/gz openlumi https://openlumi.github.io/openwrt-packages/packages/19.07/arm_cortex-a9_neon' >> /etc/opkg/customfeeds.conf
-$ opkg update
-$ opkg install [package-name]
-$
-$
-$ #or for snapshot
-$ echo 'src/gz openlumi https://openlumi.github.io/openwrt-packages/packages/snapshot/arm_cortex-a9_neon' >> /etc/opkg/customfeeds.conf
+```sh
+[ -f /lib/libustream-ssl.so ] && echo "libustream already installed" || opkg install libustream-mbedtls
+wget https://openlumi.github.io/openwrt-packages/public.key
+opkg-key add public.key
+echo 'src/gz openlumi https://openlumi.github.io/openwrt-packages/packages/19.07/arm_cortex-a9_neon' >> /etc/opkg/customfeeds.conf
+opkg update
+
+# then
+opkg install [package-name]
+
+#or for snapshot
+echo 'src/gz openlumi https://openlumi.github.io/openwrt-packages/packages/snapshot/arm_cortex-a9_neon' >> /etc/opkg/customfeeds.conf
 ```
 
 [List packages](./packages/)
