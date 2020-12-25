@@ -108,7 +108,7 @@ function generate_html_index() {
       file_modify_time=`stat  --printf="%y" $i`
 
       CONTENT+='<tr>'
-      CONTENT+='<td class="n"><a href="./'$path/$file'">'$file'</a></td>'
+      CONTENT+='<td class="n"><a href="./'$file'">'$file'</a></td>'
       CONTENT+='<td class="s">'$file_size'</td>'
       CONTENT+='<td class="d">'$file_modify_time'</td>'
       CONTENT+='</tr>'
