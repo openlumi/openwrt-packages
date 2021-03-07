@@ -1,0 +1,136 @@
+Package: node-bcrypt
+Version: 5.0.0-1
+Depends: libc, node
+Source: feeds/node/node-bcrypt
+SourceName: node-bcrypt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 797947
+Filename: node-bcrypt_5.0.0-1_arm_cortex-a9_neon.ipk
+Size: 798778
+SHA256sum: 213beccc59010cc03e294897f6a482ad49e2b70d4ded839c571b2c8bd0e5da12
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-npm
+Version: v14.15.3-1
+Depends: libc, node
+Source: feeds/node/node
+SourceName: node-npm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5664432
+Filename: node-npm_v14.15.3-1_arm_cortex-a9_neon.ipk
+Size: 5659952
+SHA256sum: 523019d9503efaeaaa32231dcef17c020ddb27ddf3421e206ded298ed97124b6
+Description:  NPM is the package manager for NodeJS
+
+Package: node-serialport-bindings
+Version: 9.0.4-1
+Depends: libc, node
+Source: feeds/node/node-serialport-bindings
+SourceName: node-serialport-bindings
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 453070
+Filename: node-serialport-bindings_9.0.4-1_arm_cortex-a9_neon.ipk
+Size: 453770
+SHA256sum: e892e859108090eb0e4a97f4dcec15f3c525671f47dce0453a466a2e7d0d0d3f
+Description:  The Binding is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign SerialPort.Binding to any binding you like.
+
+Package: node-serialport-list
+Version: 9.0.2-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport-list
+SourceName: node-serialport-list
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30657
+Filename: node-serialport-list_9.0.2-1_arm_cortex-a9_neon.ipk
+Size: 31566
+SHA256sum: b8ba7af1fb84aa0d8de103f74cdd6c84b127ffb28476f11758360467f258eb9d
+Description:  The package @serialport/list will install the serialport-list cli tool which lists all available serial ports in different formats.
+
+Package: node-serialport
+Version: 9.0.4-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36389
+Filename: node-serialport_9.0.4-1_arm_cortex-a9_neon.ipk
+Size: 37250
+SHA256sum: 54fe76f53f5dd8642c60bb31190d3848bac84f0c77e1935036216a578890058a
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-zigbee2mqtt
+Version: 1.16.2-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4017542
+Filename: node-zigbee2mqtt_1.16.2-1_arm_cortex-a9_neon.ipk
+Size: 4010981
+SHA256sum: 6e8a7ad1e40fe9a6bf8b42ee15262dfd79b03e96d908a65721760bae0ebfa864
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.17.0-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5267878
+Filename: node-zigbee2mqtt_1.17.0-1_arm_cortex-a9_neon.ipk
+Size: 5258703
+SHA256sum: 867fb4caf1199b84e2e1a7f1e76e8e5bff1ff70943d73c09f76f0efab9d9208a
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v14.15.3-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7326543
+Filename: node_v14.15.3-1_arm_cortex-a9_neon.ipk
+Size: 7310669
+SHA256sum: 9075c97e12fc6ee55c1250ae2ee8928f55025a5b774f2e948d6fd9aa0e46fa97
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 6.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
