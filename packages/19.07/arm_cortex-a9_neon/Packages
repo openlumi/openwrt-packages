@@ -1,0 +1,912 @@
+Package: domoticz
+Version: 2020.2-3
+Depends: libc, boost, boost-date_time, boost-system, boost-thread, jsoncpp, libcurl4, python3, lua5.3, libmosquitto, libopenssl1.1, libsqlite3-0, libstdcpp6, telldus-core, zlib
+Source: feeds/packages/utils/domoticz
+SourceName: domoticz
+License: GPL-3.0
+LicenseFiles: License.txt
+Section: utils
+Require-User: domoticz=6144:domoticz=6144
+Maintainer: David Woodhouse <dwmw2@infradead.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10106892
+Filename: domoticz_2020.2-3_arm_cortex-a9_neon.ipk
+Size: 10020977
+SHA256sum: 1cee2a70d8e6562089e333c62721c26f8a03054231c400f81940225620b2de7f
+Description:  Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
+
+Package: liblua5.3-5.3
+Version: 5.3.5-4
+Depends: libc
+Provides: liblua5.3
+Source: package/utils/lua5.3
+SourceName: liblua5.3
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 76705
+Filename: liblua5.3-5.3_5.3.5-4_arm_cortex-a9_neon.ipk
+Size: 77280
+SHA256sum: 39810f4a41c3e503d0870d4816257190f0c0d8e22e650b4f15169bc58b09903e
+Description:  
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: lua5.3
+Version: 5.3.5-4
+Depends: libc, liblua5.3-5.3
+Source: package/utils/lua5.3
+SourceName: lua5.3
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4937
+Filename: lua5.3_5.3.5-4_arm_cortex-a9_neon.ipk
+Size: 5780
+SHA256sum: 7355954939c76e580bdecc16c0051b618e1656559e2eb73be8aba0024a16466c
+Description:  Lua is a powerful, efficient, lightweight, embeddable scripting language. It
+ supports procedural programming, object-oriented programming, functional
+ programming, data-driven programming, and data description.
+ This package contains the Lua language interpreter.
+
+Package: lumimqtt
+Version: 1.0.10-1
+Depends: libc, python3, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12396
+Filename: lumimqtt_1.0.10-1_arm_cortex-a9_neon.ipk
+Size: 13249
+SHA256sum: 172e1fa5aa20ee08d404e9cca368adc932b99c2811ecb9f4406c443e3f53087d
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: lumimqtt
+Version: 1.0.11-2
+Depends: libc, python3, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13899
+Filename: lumimqtt_1.0.11-2_arm_cortex-a9_neon.ipk
+Size: 14728
+SHA256sum: 8b21427e5ca51d19587f562b08eba7b40a3647e9f3e0cb6c0a7d46b012fc8e41
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: lumimqtt
+Version: 1.0.14-1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17028
+Filename: lumimqtt_1.0.14-1_arm_cortex-a9_neon.ipk
+Size: 17903
+SHA256sum: 261b557f03d11a32c926bfb196dbb62e0c2b5824408202413c3a6a100c657a46
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: lumimqtt
+Version: 1.0.9-1
+Depends: libc, python3, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/lumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10702
+Filename: lumimqtt_1.0.9-1_arm_cortex-a9_neon.ipk
+Size: 11585
+SHA256sum: 8889a9c6eaf07306345e4dcdb5942d4b90d046849ef99589d83a51c20fe36924
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: node-bcrypt
+Version: 5.0.0-1
+Depends: libc, node
+Source: feeds/node/node-bcrypt
+SourceName: node-bcrypt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 797947
+Filename: node-bcrypt_5.0.0-1_arm_cortex-a9_neon.ipk
+Size: 798778
+SHA256sum: 213beccc59010cc03e294897f6a482ad49e2b70d4ded839c571b2c8bd0e5da12
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bufferutil
+Version: 4.0.2-1
+Depends: libc, node
+Source: feeds/node/node-bufferutil
+SourceName: node-bufferutil
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9051
+Filename: node-bufferutil_4.0.2-1_arm_cortex-a9_neon.ipk
+Size: 9997
+SHA256sum: 212c933f0891b43d5dc3cd5d6f0ff06bdbafcb5ba46ce4e1c993456a50948564
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-espruinohub
+Version: 0.0.2-7
+Depends: libc, node, libudev
+Source: feeds/openlumi/apps/node-espruinohub
+SourceName: node-espruinohub
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: mrG1K <mr@g1k.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1771630
+Filename: node-espruinohub_0.0.2-7_arm_cortex-a9_neon.ipk
+Size: 1769194
+SHA256sum: 3b283b0690b64d186bdd2d25c0837f153f5450c9cd18d165e831400b1d60a67e
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
+Package: node-espruinohub
+Version: 0.0.2-9
+Depends: libc, node, libudev
+Source: feeds/openlumi/apps/node-espruinohub
+SourceName: node-espruinohub
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: mrG1K <mr@g1k.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1774001
+Filename: node-espruinohub_0.0.2-9_arm_cortex-a9_neon.ipk
+Size: 1772047
+SHA256sum: ba89aa997df1036f2638737af0c0ca943f88726bd88619e98357686491cb3488
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
+Package: node-hap-nodejs
+Version: 0.8.3-1
+Depends: libc, node, libopenssl1.1
+Source: feeds/node/node-hap-nodejs
+SourceName: node-hap-nodejs
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 959072
+Filename: node-hap-nodejs_0.8.3-1_arm_cortex-a9_neon.ipk
+Size: 959581
+SHA256sum: 9874979cfb3a2c4bce141c75214d0cd848e976475cbca4779b6c190601751ed9
+Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
+
+Package: node-homebridge
+Version: 1.2.4-1
+Depends: libc, node, node-npm
+Source: feeds/node/node-homebridge
+SourceName: node-homebridge
+License: ISC Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Require-User: homebridge:homebridge
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1159206
+Filename: node-homebridge_1.2.4-1_arm_cortex-a9_neon.ipk
+Size: 1159655
+SHA256sum: 54ee3540138e314aa8c894dfc5a484f9827ffb68c5d28d1d63f2a7f8625dd011
+Description:  Homebridge is a lightweight Node.js server you can run on your home network that emulates the iOS HomeKit API
+ *** You need to install avahi-nodbus-daemon or avahi-dbus-daemon or umdns or mdnsd package. ***
+
+Package: node-npm
+Version: v12.20.0-2
+Depends: libc, node
+Source: feeds/node/node
+SourceName: node-npm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5920572
+Filename: node-npm_v12.20.0-2_arm_cortex-a9_neon.ipk
+Size: 5915260
+SHA256sum: 150e231972f5923660508bcba2a5e1c7511ed762dea3d1ddd6f8604acf9ffb89
+Description:  NPM is the package manager for NodeJS
+
+Package: node-red-contrib-homekit-bridged
+Version: 1.2.0-1
+Depends: libc, node, node-red, node-hap-nodejs
+Source: feeds/node/node-red-contrib-homekit-bridged
+SourceName: node-red-contrib-homekit-bridged
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 61635
+Filename: node-red-contrib-homekit-bridged_1.2.0-1_arm_cortex-a9_neon.ipk
+Size: 62214
+SHA256sum: 1a662ef64bb9ddac633d3971ba33694a694520421d2f38a4b1462dbf00cbc8b1
+Description:  node-red-contrib-homekit-bridged (aka NRCHKB) is a Node-RED nodes pack to simulate Apple HomeKit devices.
+
+Package: node-red-dashboard
+Version: 2.25.0-1
+Depends: libc, node, node-red
+Source: feeds/node/node-red-dashboard
+SourceName: node-red-dashboard
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2863463
+Filename: node-red-dashboard_2.25.0-1_arm_cortex-a9_neon.ipk
+Size: 2859244
+SHA256sum: 9a2b7fa22d002850d35baba86da332b4656398a82f7ab88a9315e7cfe1e350a7
+Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
+
+Package: node-red-node-serialport
+Version: 0.11.1-1
+Depends: libc, node, node-red, node-serialport
+Source: feeds/node/node-red-node-serialport
+SourceName: node-red-node-serialport
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12507
+Filename: node-red-node-serialport_0.11.1-1_arm_cortex-a9_neon.ipk
+Size: 13361
+SHA256sum: 8acca54392ad4126ad4e3b70c7688ec999a76795e1e70b097bdde32f5da2eecc
+Description:  Node-RED nodes to talk to hardware serial ports.
+
+Package: node-red
+Version: 1.1.3-1
+Depends: libc, node, node-npm
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9278528
+Filename: node-red_1.1.3-1_arm_cortex-a9_neon.ipk
+Size: 9254015
+SHA256sum: 113a91638112956b57ad551a41cba297cf3ce2b32242849ff6c33a893462c51b
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-red
+Version: 1.2.6-4
+Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9413574
+Filename: node-red_1.2.6-4_arm_cortex-a9_neon.ipk
+Size: 8714748
+SHA256sum: 8fbea089c71c00492c8008c2e365dc0bc26962322e2b7501597fa464a78d011b
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-red
+Version: 2.0.6-1
+Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13181957
+Filename: node-red_2.0.6-1_arm_cortex-a9_neon.ipk
+Size: 12970775
+SHA256sum: 13d83a949b26c2c40d6557a0680a2b15b274dd1edc3c843e1d47389b33dd7549
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-serialport-bindings
+Version: 9.0.2-1
+Depends: libc, node
+Source: feeds/node/node-serialport-bindings
+SourceName: node-serialport-bindings
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 452337
+Filename: node-serialport-bindings_9.0.2-1_arm_cortex-a9_neon.ipk
+Size: 453006
+SHA256sum: 23bdb5e0c7b74f8feaff9fd89390e0d378ffd7db1bdf4c27782d84dfd898eab4
+Description:  The Binding is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign SerialPort.Binding to any binding you like.
+
+Package: node-serialport-bindings
+Version: 9.0.4-1
+Depends: libc, node
+Source: feeds/node/node-serialport-bindings
+SourceName: node-serialport-bindings
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 453079
+Filename: node-serialport-bindings_9.0.4-1_arm_cortex-a9_neon.ipk
+Size: 453784
+SHA256sum: d8b85abf0ee420fcdab21d5bd595865afd6e39337251b12b8b426a5cdf2c6522
+Description:  The Binding is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign SerialPort.Binding to any binding you like.
+
+Package: node-serialport-list
+Version: 9.0.2-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport-list
+SourceName: node-serialport-list
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30657
+Filename: node-serialport-list_9.0.2-1_arm_cortex-a9_neon.ipk
+Size: 31566
+SHA256sum: b8ba7af1fb84aa0d8de103f74cdd6c84b127ffb28476f11758360467f258eb9d
+Description:  The package @serialport/list will install the serialport-list cli tool which lists all available serial ports in different formats.
+
+Package: node-serialport
+Version: 9.0.2-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36347
+Filename: node-serialport_9.0.2-1_arm_cortex-a9_neon.ipk
+Size: 37191
+SHA256sum: 3baf979708f7f86dc0fd54fd24b3941394ed199f7441ac54a91bbaf067107d6d
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-serialport
+Version: 9.0.4-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36389
+Filename: node-serialport_9.0.4-1_arm_cortex-a9_neon.ipk
+Size: 37250
+SHA256sum: 54fe76f53f5dd8642c60bb31190d3848bac84f0c77e1935036216a578890058a
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-sqlite3
+Version: 5.0.0-3
+Depends: libc, node
+Source: feeds/node/node-sqlite3
+SourceName: node-sqlite3
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2958381
+Filename: node-sqlite3_5.0.0-3_arm_cortex-a9_neon.ipk
+Size: 2945579
+SHA256sum: 259f8cef47e6a38cc9c6b36c48565aa0e25d3d948a8a1c13f7efd2c963c96f9f
+Description:  Node.js package to access serial ports for reading and writing OR Welcome your robotic JavaScript overlords. Better yet, program them!
+
+Package: node-utf-8-validate
+Version: 5.0.3-1
+Depends: libc, node
+Source: feeds/node/node-utf-8-validate
+SourceName: node-utf-8-validate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8359
+Filename: node-utf-8-validate_5.0.3-1_arm_cortex-a9_neon.ipk
+Size: 9242
+SHA256sum: 1749b34a3859ac8fac0247925b1f2b7a4e8d025e7c917d36ac5dff86846b40c1
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.0-1
+Depends: libc, node
+Source: package/utils/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5272148
+Filename: node-zigbee2mqtt-dev_1.17.0-2_arm_cortex-a9_neon.ipk
+Size: 5263608
+SHA256sum: 255541f1ba16fefcfe379d586ee937c23d8beeadc242562193670f11703a7b6f
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.1-dev-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3048265
+Filename: node-zigbee2mqtt-dev_1.17.1-dev-1_arm_cortex-a9_neon.ipk
+Size: 3042525
+SHA256sum: 6010141da5466a272c5721cca582edf4ecdcc730038a256ab65751ea26dfe87d
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.1-dev-2-1f29f86
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3059696
+Filename: node-zigbee2mqtt-dev_1.17.1-dev-2-1f29f86_arm_cortex-a9_neon.ipk
+Size: 3053130
+SHA256sum: 95f6e1bc016de5f3e4c25dee362b04c87bd124811cf795cf1c7a2188bea8bc49
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.1-dev-20210212-e07f065
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3052732
+Filename: node-zigbee2mqtt-dev_1.17.1-dev-20210212-e07f065_arm_cortex-a9_neon.ipk
+Size: 3047725
+SHA256sum: ec9f2b07d6d0a54ad06d268b3c9b472cc21063217ef07f8a6ae8947368355573
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.1-dev-20210220-51cec63
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3057899
+Filename: node-zigbee2mqtt-dev_1.17.1-dev-20210220-51cec63_arm_cortex-a9_neon.ipk
+Size: 3053584
+SHA256sum: 7cb53a150af45b6e46128a14da998aeeeb736f53ae66cee2aac2dcceaf8e9061
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: 1.17.1-dev-20210222-d5b2486
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3058915
+Filename: node-zigbee2mqtt-dev_1.17.1-dev-20210222-d5b2486_arm_cortex-a9_neon.ipk
+Size: 3053750
+SHA256sum: ca0ee1bda4aaa9d87e7550e13ff005514c1fe1bc6e02e8db22e0fe60b1950340
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt-dev
+Version: dev-20211004
+Depends: libc, node
+Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4349375
+Filename: node-zigbee2mqtt-dev_dev-20211004_arm_cortex-a9_neon.ipk
+Size: 4346024
+SHA256sum: 3aad4ff3b8bf9624b9b4faf35e956eeec8ec30da4bb2d54910de7622a7dd3f3f
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.16.1-3
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4050896
+Filename: node-zigbee2mqtt_1.16.1-3_arm_cortex-a9_neon.ipk
+Size: 4044598
+SHA256sum: 715c40ffc2928537a14960c743741e297e6c0d0a6f9229b1f5e5d5ccfcc8cc64
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.16.2-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4017347
+Filename: node-zigbee2mqtt_1.16.2-1_arm_cortex-a9_neon.ipk
+Size: 4010636
+SHA256sum: 76c92c207196c2e2333bc97be2a72c45027fa2242e04eb96eb0a0c82e3a33e97
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.17.0-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5267524
+Filename: node-zigbee2mqtt_1.17.0-1_arm_cortex-a9_neon.ipk
+Size: 5258198
+SHA256sum: 6000a3f456d6e57ba1c1fc141246a659c3ba97a8e1f71fdff02ee73ed1334b77
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.17.1-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3047033
+Filename: node-zigbee2mqtt_1.17.1-1_arm_cortex-a9_neon.ipk
+Size: 3041264
+SHA256sum: 72bc25dcbe4b5616545b7ccce08e7e72ff457f71292f3dbac92c0f04c4c0ff9a
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.18.1-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3182507
+Filename: node-zigbee2mqtt_1.18.1-1_arm_cortex-a9_neon.ipk
+Size: 3177134
+SHA256sum: 30733a2de23b08d681180e1401ec6634489b48c0a2b05c311237f98b552c84bd
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.18.2-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3320056
+Filename: node-zigbee2mqtt_1.18.2-1_arm_cortex-a9_neon.ipk
+Size: 3314743
+SHA256sum: e357af58d8ab79228609d64f344424ef9872c203219a94748d352477c6fed90a
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.21.0-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4212444
+Filename: node-zigbee2mqtt_1.21.0-1_arm_cortex-a9_neon.ipk
+Size: 4208652
+SHA256sum: 1e4a9b540f93eff098d67dd68d41ae4a6f2f74c29d44e5482b168b032b78f500
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.21.1-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4304468
+Filename: node-zigbee2mqtt_1.21.1-1_arm_cortex-a9_neon.ipk
+Size: 4301116
+SHA256sum: bccdaadfaaf7977492d4aed59891e719510ddd365473e39a419af29598f081b0
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.21.2-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4358331
+Filename: node-zigbee2mqtt_1.21.2-1_arm_cortex-a9_neon.ipk
+Size: 4355145
+SHA256sum: d5084a4e3c3e498ea552f44ffaa03e8791cf8ec436de2f9aef78167335d8e98c
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node-zigbee2mqtt
+Version: 1.22.1-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6491259
+Filename: node-zigbee2mqtt_1.22.1-1_arm_cortex-a9_neon.ipk
+Size: 6486418
+SHA256sum: 919f1058abe27460ad9b9d9bf33016005144731b2684952c9734098b015dbe9e
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v12.20.0-2
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7044672
+Filename: node_v12.20.0-2_arm_cortex-a9_neon.ipk
+Size: 7027140
+SHA256sum: 1d79182cb313dac8e41d783b61e09fc92f99c7b688b31f19e8fa25e26b39e8ed
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 6.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
+Package: python3-aio-mqtt
+Version: 0.2.0-1
+Depends: libc
+Source: /opt/lumi/libs/python3-aio-mqtt
+SourceName: python3-aio-mqtt
+License: APACHE
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15462
+Filename: python3-aio-mqtt_0.2.0-1_arm_cortex-a9_neon.ipk
+Size: 16199
+SHA256sum: dcc896a937e5149f5b7a66ff3d95178335f141e5015e44b7bed1513296f6c2d8
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bleak
+Version: 0.10.0-1
+Depends: libc, python3-txdbus
+Source: feeds/lumi/libs/python3-bleak
+SourceName: python3-bleak
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 114746
+Filename: python3-bleak_0.10.0-1_arm_cortex-a9_neon.ipk
+Size: 112953
+SHA256sum: 9808ccfb76adde59c5c6bf576c2e99875c0983a8043072010b2625cdcf4a8a32
+Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, glib2
+Source: /opt/lumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL2
+LicenseFiles: PKG-INFO
+Section: openlumi
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 307856
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
+Size: 308436
+SHA256sum: 50f942e0ddd3bbea250453ef7a548826d5aa9f6c7e035cd40574f11816f5146d
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-ciso8601
+Version: 2.1.3-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3-ciso8601
+SourceName: python3-ciso8601
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9235
+Filename: python3-ciso8601_2.1.3-1_arm_cortex-a9_neon.ipk
+Size: 10058
+SHA256sum: 92f4238bbf4d399d4f14c553b7ce5c555800ec911507d22d38a5b81654a0c48d
+Description:  ciso8601 converts ISO 8601 or RFC 3339 date time strings into Python datetime objects.
+
+Package: python3-pynacl
+Version: 1.4.0-5
+Depends: libc, libsodium, python3-light, python3-cffi, python3-six
+Source: feeds/packages/lang/python/python3-pynacl
+SourceName: python3-pynacl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Javier Marcet <javier@marcet.info>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 73609
+Filename: python3-pynacl_1.4.0-5_arm_cortex-a9_neon.ipk
+Size: 73895
+SHA256sum: 44581ef6edaa5b7af9faf61cac11633f3573570547192362929c7c1b839ac6ae
+Description:  PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library.
+
+Package: snapclient
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libvorbisidec, libsoxr
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapclient
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 243693
+Filename: snapclient_0.22.0_arm_cortex-a9_neon.ipk
+Size: 243882
+SHA256sum: e06a89cd4596c21c3409b45a5098ef9d45dac4a9c2be21bc6e3ffbe521ba08db
+Description:  Synchronous audio player
+ Snapcast client
+
+Package: snapclient
+Version: 0.24.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libvorbisidec, libsoxr
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapclient
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 259866
+Filename: snapclient_0.24.0_arm_cortex-a9_neon.ipk
+Size: 260036
+SHA256sum: 39f5d741c597a69c3cb7e0e12034ad6dd5a593dd237985b5c3dbf9992b4be728
+Description:  Synchronous audio player
+ Snapcast client
+
+Package: snapclient
+Version: 0.25.0-1
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libvorbisidec, libsoxr
+Source: feeds/openlumi/apps/snapcast
+SourceName: snapclient
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 261838
+Filename: snapclient_0.25.0-1_arm_cortex-a9_neon.ipk
+Size: 261927
+SHA256sum: fea2a474ead10d584ce5997fd16873ce9a1e13891212eaf0226e523fd1112d49
+Description:  Synchronous audio player
+ Snapcast client
+
+Package: snapserver
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libsoxr, libvorbis
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapserver
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 647944
+Filename: snapserver_0.22.0_arm_cortex-a9_neon.ipk
+Size: 647530
+SHA256sum: ac459403603b5d1b8c245ca6ebc2637d4131631e7cf7be82b8d6c834c8f18aa2
+Description:  Synchronous audio player
+ Snapcast server
+
+Package: snapserver
+Version: 0.24.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libsoxr, libvorbis
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapserver
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 670448
+Filename: snapserver_0.24.0_arm_cortex-a9_neon.ipk
+Size: 669833
+SHA256sum: af5e61e4143f8fcc93eaa478c904e94a28737067e37789bbebb7fa650eea0c8d
+Description:  Synchronous audio player
+ Snapcast server
+
+Package: snapserver
+Version: 0.25.0-1
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg, libflac, libopus, boost, alsa-lib, libsoxr, libvorbis
+Source: feeds/openlumi/apps/snapcast
+SourceName: snapserver
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 673928
+Filename: snapserver_0.25.0-1_arm_cortex-a9_neon.ipk
+Size: 673299
+SHA256sum: 1e322d5a7607a3653c58e02d1865bb29f68f9b5b4d424b08b009d293b9f23f45
+Description:  Synchronous audio player
+ Snapcast server
+
+Package: zesp32
+Version: 20201113-1
+Depends: libc
+Source: /opt/zesp/zesp32
+SourceName: zesp32
+Section: zesp32
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11383971
+Filename: zesp32_20201113-1_arm_cortex-a9_neon.ipk
+Size: 11319968
+SHA256sum: 778c9bc87e66f217111b7dcf08c5fbf1a5af45511360c688e9cefb03bcd66daa
+Description:  A Zesp32 package
+

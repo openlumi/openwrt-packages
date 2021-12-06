@@ -1,0 +1,398 @@
+Package: node-bleno
+Version: 0.5.0-1
+Depends: libc, node, bluez-libs
+Source: feeds/node/node-bleno
+SourceName: node-bleno
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53517
+Filename: node-bleno_0.5.0-1_arm_cortex-a9_neon.ipk
+Size: 54279
+SHA256sum: e03f3188389923a5a67858a9541d69d52be61f8bd6b3f3d57b7a7bbaf7515b67
+Description:  A node.js module for implementing BLE (Bluetooth low energy) peripherals
+
+Package: node-bluetooth-hci-socket
+Version: 0.5.3-1
+Depends: libc, node, bluez-libs, libudev-fbsd, node-usb
+Source: feeds/node/node-bluetooth-hci-socket
+SourceName: node-bluetooth-hci-socket
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 748571
+Filename: node-bluetooth-hci-socket_0.5.3-1_arm_cortex-a9_neon.ipk
+Size: 749162
+SHA256sum: a412acb2d4c63db5cb935bed172b33092b4389ea61f459a4a3a478ec9a7a2596
+Description:  Bluetooth HCI socket binding for Node.js
+
+Package: node-firmata
+Version: 2.2.0-1
+Depends: libc, node, node-serialport
+Source: feeds/node/node-firmata
+SourceName: node-firmata
+License: MIT
+LicenseFiles: readme.md
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30405
+Filename: node-firmata_2.2.0-1_arm_cortex-a9_neon.ipk
+Size: 31264
+SHA256sum: 9953f8f12c247f35cb30c7de50e129a78f58ce674e4e872b06f32cad02c94f08
+Description:  Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards
+
+Package: node-hap-nodejs
+Version: 0.8.2-1
+Depends: libc, node, libopenssl1.1
+Source: feeds/node/node-hap-nodejs
+SourceName: node-hap-nodejs
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 712066
+Filename: node-hap-nodejs_0.8.2-1_arm_cortex-a9_neon.ipk
+Size: 712298
+SHA256sum: 5508ee9fe151b2dee873ecb81db03f94411979c6f9c533fbf6e99ca0cf16f13c
+Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
+
+Package: node-homebridge
+Version: 1.2.3-1
+Depends: libc, node, node-npm
+Source: feeds/node/node-homebridge
+SourceName: node-homebridge
+License: ISC Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Require-User: homebridge:homebridge
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1129732
+Filename: node-homebridge_1.2.3-1_arm_cortex-a9_neon.ipk
+Size: 1129996
+SHA256sum: dd32b444ac6a0bc95f9707ac5679463aea99e01e929f303d792aa53791f21e9f
+Description:  Homebridge is a lightweight Node.js server you can run on your home network that emulates the iOS HomeKit API
+ *** You need to install avahi-nodbus-daemon or avahi-dbus-daemon or umdns or mdnsd package. ***
+
+Package: node-johnny-five
+Version: 2.0.0-1
+Depends: libc, node, node-firmata, node-serialport
+Source: feeds/node/node-johnny-five
+SourceName: node-johnny-five
+License: MIT
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 466745
+Filename: node-johnny-five_2.0.0-1_arm_cortex-a9_neon.ipk
+Size: 467497
+SHA256sum: ca83ce77128ae3c97af0a636514d48c8056678250762b8e1e177152346a9da21
+Description:  The JavaScript Robotics and Hardware Programming Framework
+
+Package: node-mqtt
+Version: 3.0.0-1
+Depends: libc, node
+Source: feeds/node/node-mqtt
+SourceName: node-mqtt
+License: MIT
+LicenseFiles: LICENSE.md
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 843004
+Filename: node-mqtt_3.0.0-1_arm_cortex-a9_neon.ipk
+Size: 840490
+SHA256sum: a9d2419027c365a6f92589df386b46b1b5eaa9a7f04beeffc42b916f26870eb7
+Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
+
+Package: node-noble
+Version: 1.9.1-1
+Depends: libc, node, bluez-libs
+Source: feeds/node/node-noble
+SourceName: node-noble
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 82480
+Filename: node-noble_1.9.1-1_arm_cortex-a9_neon.ipk
+Size: 83331
+SHA256sum: e167105ab70867acf952c3738f01e92d3bf7fcfbbf8d78c6cedbec1b36b760ea
+Description:  A node.js BLE (Bluetooth low energy) central library.
+
+Package: node-npm
+Version: v12.19.0-1
+Depends: libc, node
+Source: feeds/node/node
+SourceName: node-npm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5919765
+Filename: node-npm_v12.19.0-1_arm_cortex-a9_neon.ipk
+Size: 5913412
+SHA256sum: 9c9673564c545c9523182ed3257c8a4a9f12987cf8acf995b37501cebf0e3a82
+Description:  NPM is the package manager for NodeJS
+
+Package: node-pm2
+Version: 4.2.3-1
+Depends: libc, node
+Source: feeds/node/node-pm2
+SourceName: node-pm2
+License: AGPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5853424
+Filename: node-pm2_4.2.3-1_arm_cortex-a9_neon.ipk
+Size: 5841346
+SHA256sum: f4a80ffd881805d4c630e93b1296eaf3c6aedf91206a2fa54bacec67cb05cdc5
+Description:  PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks
+
+Package: node-red-admin
+Version: 0.1.5-1
+Depends: libc, node, node-npm
+Source: feeds/node/node-red-admin
+SourceName: node-red-admin
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Jan Pavlinec <jan.pavlinec@nic.cz>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2259066
+Filename: node-red-admin_0.1.5-1_arm_cortex-a9_neon.ipk
+Size: 2253374
+SHA256sum: 0c7f1781826184204d86f136ee495ca2ad425c525e4a69bc069d46d9cedb7b3a
+Description:  The command-line tool allows you to remotely administer a Node-RED instance.
+
+Package: node-red-contrib-gpio
+Version: 0.14.0-4
+Depends: libc, node, node-red, node-johnny-five, node-mqtt
+Source: feeds/node/node-red-contrib-gpio
+SourceName: node-red-contrib-gpio
+License: MIT
+LicenseFiles: License.md
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1574338
+Filename: node-red-contrib-gpio_0.14.0-4_arm_cortex-a9_neon.ipk
+Size: 1574174
+SHA256sum: 7279437725d358c747092adcf2e96c54aea90fe0c9a4d3e81692d8837103cb27
+Description:  A set of input and output nodes for controlling General Purpose Input and Outputs (GPIOs) though the use of johnny-five I/O Plugins as well as running johnny-five scripts!
+
+Package: node-red-contrib-homekit
+Version: 0.2.1-8
+Depends: libc, node, node-red, node-hap-nodejs
+Source: feeds/node/node-red-contrib-homekit
+SourceName: node-red-contrib-homekit
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9187
+Filename: node-red-contrib-homekit_0.2.1-8_arm_cortex-a9_neon.ipk
+Size: 10034
+SHA256sum: cc1c3821e7b423885a6ce0708b3f5b20316cace59e55ae48d267d9b36d4a5a4d
+Description:  Node-RED nodes to simulate Apple HomeKit devices
+
+Package: node-red
+Version: 1.2.1-1
+Depends: libc, node, node-npm
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9827738
+Filename: node-red_1.2.1-1_arm_cortex-a9_neon.ipk
+Size: 9625145
+SHA256sum: 50b292c833c6ddf43715b9a85600dfc0a53d64c41098066537be854bdf0fe6d1
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-serialport-bindings
+Version: 9.0.1-1
+Depends: libc, node
+Source: feeds/node/node-serialport-bindings
+SourceName: node-serialport-bindings
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 452341
+Filename: node-serialport-bindings_9.0.1-1_arm_cortex-a9_neon.ipk
+Size: 452828
+SHA256sum: 0fc6ad02258d41f95c59f836919767646bf3557cf2eca0a7d0530f556571a4bc
+Description:  The Binding is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign SerialPort.Binding to any binding you like.
+
+Package: node-serialport
+Version: 9.0.1-1
+Depends: libc, node, node-serialport-bindings
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 35838
+Filename: node-serialport_9.0.1-1_arm_cortex-a9_neon.ipk
+Size: 36657
+SHA256sum: e2bf08d174b4de253aac00e0a02027c2651efa697732b68cf19e9e53eb5f7560
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-socket.io
+Version: 2.3.0-1
+Depends: libc, node
+Source: feeds/node/node-socket.io
+SourceName: node-socket.io
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 736800
+Filename: node-socket.io_2.3.0-1_arm_cortex-a9_neon.ipk
+Size: 736761
+SHA256sum: 11c2c0a1d9331691d7f399259f35785b0dd345a36890e2fd413af2cf5f92cdd6
+Description:  Real-time apps made cross-browser & easy with a WebSocket-like API
+
+Package: node-usb
+Version: 1.6.3-1
+Depends: libc, node, libudev-fbsd
+Source: feeds/node/node-usb
+SourceName: node-usb
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1069363
+Filename: node-usb_1.6.3-1_arm_cortex-a9_neon.ipk
+Size: 1068326
+SHA256sum: 237ae214b0c4689add280d6c5b0ccc306e87eef86c64bd38695a3d003d0e9c2d
+Description:  Node.js library for communicating with USB devices in JavaScript / CoffeeScript
+
+Package: node-zigbee2mqtt-zigate
+Version: 1.15.0-dev-20201023-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt-zigate
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4033922
+Filename: node-zigbee2mqtt-zigate_1.15.0-dev-20201023-1_arm_cortex-a9_neon.ipk
+Size: 4026120
+SHA256sum: 6afac20696036ca5febeeeff8b2c467083e1118a1d2aa43eb17e6e1faff6e10d
+Description:  Zigbee to MQTT bridge using zigbee-shepherd
+
+Package: node-zigbee2mqtt
+Version: 1.16.1-1
+Depends: libc, node
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1603425642
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4050992
+Filename: node-zigbee2mqtt_1.16.1-1_arm_cortex-a9_neon.ipk
+Size: 4044132
+SHA256sum: 069723a8b85e881276a45c4a9f2665a89d671d75bafb0d1215b7c393b1b8ac1e
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v12.19.0-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libuv1, libcares, libatomic1
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1602658314
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6952089
+Filename: node_v12.19.0-1_arm_cortex-a9_neon.ipk
+Size: 6935329
+SHA256sum: 53487ff887b9c521054212d514fdb5c76f473af47ab6f7ab9c660b19e82bed29
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 6.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
+Package: snapclient
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg0, libflac, libopus, boost, alsa-lib, libvorbisidec, libsoxr
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapclient
+Section: sound
+SourceDateEpoch: 1598777182
+Architecture: arm_cortex-a9_neon
+Installed-Size: 240362
+Filename: snapclient_0.22.0_arm_cortex-a9_neon.ipk
+Size: 240495
+SHA256sum: 5d4d8f47be1f7c0cf785e1f81eeb83239aa4293566caf3b762ecebdd3be5445a
+Description:  Synchronous audio player
+ Snapcast client
+
+Package: snapserver
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg0, libflac, libopus, boost, alsa-lib, libsoxr, libvorbis
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapserver
+Section: sound
+SourceDateEpoch: 1598777182
+Architecture: arm_cortex-a9_neon
+Installed-Size: 670406
+Filename: snapserver_0.22.0_arm_cortex-a9_neon.ipk
+Size: 669812
+SHA256sum: 633ff8eab4aa944239759e17a391f347a6e6c50635eb82d675cb04e932fe1163
+Description:  Synchronous audio player
+ Snapcast server
+
